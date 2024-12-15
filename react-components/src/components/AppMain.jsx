@@ -1,16 +1,17 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import style from "./AppMain.module.css";
 function AppMain() {
     return <main>
 
-        <Card className='card' style={{ width: '35rem' }}>
-            <div className='picture'>600 X 400</div>
+        <Card className={style.card} style={{ width: '35rem' }}>
+            <img src="../hqdefault.jpg" alt="" />
             <Card.Body>
-                <Card.Title>Titolo del Post</Card.Title>
+                <Card.Title>Vomito - Enzo Salvi</Card.Title>
                 <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum cumque fugiat magni labore aliquid harum officia quas sit? Eius nobis fugit blanditiis? Amet corrupti labore odit ut voluptates voluptate culpa.
+                    Vomito è un personaggio inventato da Enzo Salvi, presente nel film Natale in India con Christian De Sica e Massimo Boldi. E' un rapper romano noto per la sua skill di accensione di accendini.
                 </Card.Text>
-                <Button className='button' variant="warning">Leggi di più</Button>
+                <Button className={style.button} variant="warning">Leggi di più</Button>
             </Card.Body>
         </Card>
         ;<img src="" alt="" />

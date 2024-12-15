@@ -3,21 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-.card{
-  margin: auto;
-}
-.button{
-  color: white;
-}
-.picture{
-  font-size: 70px;
-  text-align: center;
-  padding: 100px;
-  background-color: hsl(0deg 0% 80%);
-}
-.footer{
-  background-color: hsl(0deg 0% 20%);
-  text-align: center;
-  color: white;
-  padding: 12px;
+img{
+  width: 100%;
 }
